@@ -22,10 +22,30 @@ It will be used in birthday match problem.
     
 2. Simulate Binomial random variable by `rbinom` and check the results with exact answers of `dbinom` and `pbinom`.
 
-3. Expectation value of a bet.
+3. Expectation value of a customized bet.
 
-4. Probability of a run of `m` or more of a value, in `n` flips of a coin, with the help of `rle` function.
+4. Probability of a run of `m` or more of a particular value, in `n` flips of a coin, with the help of `rle` function.
 
 5. Built-in functions introduced:
 
     * `rbinom`, `dbinom`, `pbinom`, `rle`, `choose`.
+
+
+## [Studio3](https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2014/0c9cedf48eb79532d8b9d307ce75825b_MIT18_05S14_studio3_slides.pdf): Gallery of continuous random variables, making histograms, histograms of averages
+
+
+1. Normal distribution: `rnorm`, `dnorm`, `pnorm`, `qnorm`.
+
+2. Exponential and Uniform distributions: `rexp`, `dexp`, `pexp`, `runif`, `dunif`, `punif`.
+
+3. Histograms and binning: `hist(data, breaks, freq)`.
+
+4. Histogram of average of exponential random variable: getting ready for Central Limit Theorem.
+
+5. Analyze the experimental results of a medical treatment for cancer:
+
+    * Define a random variable X to be the length of time a random patient given the treatment survives.
+    
+    * Import data from a function in `ps3prob2data.r` file.
+    
+    * Draw the bimodal histogram of data and analyze the average and standard deviation of it to conclude the effectiveness of treatment.
