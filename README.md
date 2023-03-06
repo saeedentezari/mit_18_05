@@ -49,3 +49,16 @@ It will be used in birthday match problem.
     * Import data from a function in `ps3prob2data.r` file.
     
     * Draw the bimodal histogram of data and analyze the average and standard deviation of it to conclude the effectiveness of treatment.
+    
+    
+## [Studio4](https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2014/2bf8ef7cfe3f500704114e7ed9330acb_MIT18_05S14_studio4_slides.pdf): Covariance, Correlation, CLT
+
+1. Two roulette gamblers:
+
+    * Expected and variance of each gambler's winning random variable.
+    
+    * Covariance and correlation of two gamblers' winning random variables.
+    
+    * Estimate each gambler's winning r. v. with normal distribution based on CLT.
+    
+2. Rounding error of shopping as a random variable.
